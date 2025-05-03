@@ -101,7 +101,7 @@ El componente principal `ChatPrompt.jsx` controla la funcionalidad del chat. Pue
 El frontend está configurado para conectarse a un backend desplegado en Vercel:
 
 ```javascript
-const res = await axios.post('https://chatgptback.vercel.app/api/chat', { prompt })
+const res = await axios.post('https://preguntados-back.vercel.app/api/chat', { prompt })
 ```
 
 Para desarrollo local, modifica la URL en `ChatPrompt.jsx` o utiliza el proxy configurado en `vite.config.js`.
